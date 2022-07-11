@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.menubar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    padding-left: 40%;
+    padding-right: 40%;
+}
