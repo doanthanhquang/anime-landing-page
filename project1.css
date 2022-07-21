@@ -30,6 +30,7 @@ body{
   font-size: 22pt;
   color: blue;
 }
+
 hr {
   display: block;
   unicode-bidi: isolate;
@@ -43,6 +44,7 @@ hr {
   border-width: 1px;
   border-color: rgb(77, 99, 161);
 }
+
 .content{
   display: flex;
   flex-direction: column;
@@ -67,12 +69,14 @@ hr {
   text-align: justify;
   margin-right: 30px;
 }
+
 .slideshow__container {
   max-width: 1000px;
   position: relative;
   margin: auto;
   padding-top:30px;
 }
+
 .slides{
   display: none;
 }
@@ -97,10 +101,9 @@ hr {
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
+.prev, .next {
   background-color: rgba(0,0,0,0.8);
-}
-  
+}  
 
 .text {
   color: #f2f2f2;
@@ -111,7 +114,6 @@ hr {
   width: 100%;
   text-align: center;
 }
-
 
 .dot {
   cursor: pointer;
@@ -129,7 +131,6 @@ hr {
   background-color: #717171;
 }
 
-
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -139,6 +140,7 @@ hr {
   from {opacity: .4}
   to {opacity: 1}
 }
+
 .movie{
   text-align: center;
   padding-top:20px;
@@ -146,6 +148,7 @@ hr {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
 .external__link{
   display: flex;
   flex-direction: row; 
@@ -153,16 +156,19 @@ hr {
   margin-bottom: 50px;
   background-color: rgb(153, 153, 168);
 }
+
 .image__{
   margin-left: 15%;
   padding-top:20px;
   padding-bottom: 20px;
 }
+
 .link__{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+
 .text__ss{
   padding-left: 30px;
   font-weight: bold;
@@ -170,6 +176,7 @@ hr {
   font-family: 'Times New Roman', Times, serif;
   color: white;
 }
+
 .ss{
   padding-left: 30px;
   margin-right: 15%;
@@ -197,14 +204,17 @@ hr {
   font-size: 100%;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;
+  
+}
+
+#message{
+  width: 600px;
+  height: 150px;
   text-align: start;
   word-wrap: break-word;
   word-break: break-all;
 }
-#message{
-  width: 600px;
-  height: 150px;
-}
+
 .submit__contact{
   width: 70px;
   height: 50px;
@@ -214,8 +224,8 @@ hr {
   font-weight: bold;
   color: black;
   border-color: #787878 !important;
-  /* background-color: #787878; */
 }
+
 form{
   text-align: center;
 }
