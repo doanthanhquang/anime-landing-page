@@ -6,7 +6,7 @@ body{
   text-align: center;
   font-weight: bold;
   color: white;
-  background-color: blue;
+  background-color: rgb(175, 175, 207);
   padding-top: 1px;
   padding-bottom: 1px;
 }
@@ -197,22 +197,19 @@ hr {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left:20px;
+  padding-right: 20px;
   padding-top:5px;
   padding-bottom: 5px;
   border: solid 1pt;
   color: black;
   font-size: 100%;
   font-family:'Times New Roman', Times, serif;
-  font-weight: bold;
-  
+  font-weight: bold;  
 }
 
 #message{
   width: 600px;
   height: 150px;
-  text-align: start;
-  word-wrap: break-word;
-  word-break: break-all;
 }
 
 .submit__contact{
@@ -228,4 +225,19 @@ hr {
 
 form{
   text-align: center;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  background-color: #e8eaeb ;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin-top:80px;
+}
+
+.y{
+  padding-left: 40px;
+  padding-right:40px;
 }
