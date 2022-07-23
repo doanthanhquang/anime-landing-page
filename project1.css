@@ -60,7 +60,7 @@ hr {
   margin-bottom: 50px;
   font-family:'Times New Roman', Times, serif;
   font-size: 14pt;
-  background-color: #717171;
+  /* background-color: #717171; */
 }
 
 .section__content{
@@ -169,7 +169,6 @@ hr {
   flex-direction: column;
   justify-content: space-around;
 }
-
 .text__ss{
   padding-left: 30px;
   font-weight: bold;
@@ -179,7 +178,8 @@ hr {
 }
 
 .ss{
-  margin-right: 15%;
+  padding-right: 10%;
+  padding-bottom: 10px;
   font-size:16pt;
   font-family: Helvetica;
   color: white;
@@ -260,16 +260,15 @@ body {
   cursor: pointer;
   opacity: 0.8;
   position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 280px;
+  bottom: 40px;
+  right: 40px;
 }
 
 .chat-popup {
   display: none;
   position: fixed;
-  bottom: 0;
-  right: 15px;
+  bottom: 40px;
+  right: 40px;
   border: 3px solid #f1f1f1;
   z-index: 9;
 }
@@ -312,4 +311,22 @@ body {
 
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+@media screen and (max-width: 1000px){
+  .section1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section__image{
+    padding-bottom: 40px;
+  }
+  .external__link{
+    display: flex;
+    flex-direction: column;
+  }  
+  .link__{
+    padding-left: 15%;
+    padding-bottom: 60px;
+  }
 }
