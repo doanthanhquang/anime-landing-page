@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="project1.css">
         <title>Website about Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="navbar">
@@ -32,6 +33,7 @@
             </div>
             <div class="text__tt">Picture Gallery</div>
             <hr class="underline"></hr>
+
             <div class="slideshow__container">
                 <div class="slides">   
                     <img src="images\image_1.jpg" alt="image1" style="width:100%">  
@@ -47,10 +49,10 @@
             </div>
             <br>
                 
-                <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
             </div>
             <script src="js\slideshow.js"></script>
             <div class="text__tt">Trailer Season 1</div>            <hr class="underline"></hr>
@@ -68,13 +70,13 @@
                 <div class="link__">   
                     <div class="text__ss">External Links</div>        
                     <div class="ss">Season 1:
-                        <a href="https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-1586.html">https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-1586.html</a>
+                        <a href="https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-1586.html" class="ss">https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-1586.html</a>
                     </div>
                     <div class="ss">Season 2:
-                        <a href="https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season-4828.html">https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season-4828.html</a>
+                        <a href="https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season-4828.html" class="ss">https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season-4828.html</a>
                     </div>                
                     <div class="ss">News:
-                        <a href="https://game4v.com/thong-tin-dau-tien-ve-youkoso-jitsuryoku-ss2-duoc-cong-bo-845437.g4v">https://game4v.com/thong-tin-dau-tien-ve-youkoso-jitsuryoku-ss2-duoc-cong-bo-845437.g4v</a>
+                        <a href="https://game4v.com/thong-tin-dau-tien-ve-youkoso-jitsuryoku-ss2-duoc-cong-bo-845437.g4v" class="ss">https://game4v.com/thong-tin-dau-tien-ve-youkoso-jitsuryoku-ss2-duoc-cong-bo-845437.g4v</a>
                     </div>
                 </div>
             </div>
@@ -90,15 +92,31 @@
                     </form>
                 </div>
             </div>
-            <div class="footer">
-                <div class="text2">© 2022 Mauritius Expo</div>
-                <div class="y">
-                    <img src="svg\y.svg" alt="y">
-                </div>
-                <div class="l">
-                    <img src="svg\L.svg" alt="l">
-                </div>
-            </div>
         </div>
+
+        <div class="footer">
+            <div class="text2">fghyggjhkhklh</div>                
+            <div class="l">
+                <a href="https://www.facebook.com/">
+                    <i style="font-size:24px" class="fa">&#xf082;</i>
+                </a>
+                
+            </div>
+            
+        </div>    
+        <button class="open-button" onclick="openForm()">Chat</button>
+
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Chat</h1>
+
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+        <script src="js\chat__btn.js"></script>
     </body>
 </html>
