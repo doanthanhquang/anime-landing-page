@@ -6,7 +6,7 @@ body{
   text-align: center;
   font-weight: bold;
   color: white;
-  background-color: rgb(175, 175, 207);
+  background-color: #4D63A1;
   padding-top: 1px;
   padding-bottom: 1px;
 }
@@ -154,13 +154,14 @@ hr {
   flex-direction: row; 
   margin-top: 30px;
   margin-bottom: 50px;
-  background-color: rgb(153, 153, 168);
+  background-color: #5D73B0;
 }
 
 .image__{
   margin-left: 15%;
   padding-top:20px;
   padding-bottom: 20px;
+  padding-right: 30px;
 }
 
 .link__{
@@ -178,10 +179,10 @@ hr {
 }
 
 .ss{
-  padding-left: 30px;
   margin-right: 15%;
   font-size:16pt;
   font-family: Helvetica;
+  color: white;
 }
 
 .text__contact{
@@ -230,6 +231,7 @@ form{
 .footer{
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: center;  
   background-color: #e8eaeb ;
   padding-top: 25px;
@@ -237,7 +239,77 @@ form{
   margin-top:80px;
 }
 
-.y{
+.l{
   padding-left: 40px;
   padding-right:40px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }
