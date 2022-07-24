@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="project1.css">
         <title>Website about Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,19 +12,46 @@
         <div class="navbar">
             <p>Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</p>
         </div>
-        <div class="menubar">
+        <!-- <div class="menubar">
             <div class="menubar__button">
                 <a>Home</a>
             </div>
             <div class="menubar__button">
                 <a>English</a>
             </div>
-        </div>
-        <div class="text__title">
-            <div class="text__tt">Introduction</div>
-            <hr class="underline"></hr>
-        </div>
+        </div> -->
+        <nav>
+            <div class="toggle__menu">
+                <img src="svg\menu.svg" alt="Menu">
+            </div>
+            <ul>
+                <li><a href="#">
+                    Home
+                </a></li>
+                <li><a href="#">
+                    Picture Gallery
+                </a></li>
+                <li><a href="#">
+                    Trailer Season 1
+                </a></li>
+                <li><a href="#">
+                    Trailer Season 1
+                </a></li>
+                <li><a href="#">
+                    External Link
+                </a></li>
+                <li><a href="#">
+                    Vietnamese
+                </a></li>
+            </ul>
+        </nav>
+        
+        
         <div class="content">
+            <div class="text__title">
+                <div class="text__tt">Introduction</div>
+                <hr class="underline"></hr>
+            </div>
             <div class="section1">
                 <div class="section__content">
                     Koudo Ikusei High School is a prestigious top school with state-of-the-art facilities where almost 100% of students go to university to get a job. The students there have the freedom to wear any clothes or choose the hairstyle they want. Koudo Ikusei is a heavenly school, but the truth is that only the superiors of students are treated well. Ayanokouji Kiyotaka is a student in Class D, which is reserved for "bad" and mocked students. For some reason, Kiyotaka was careless in his entrance exam, and was placed in Class D. After meeting Horikita Suzune and Kushida Kikyou, two other students in the class, Kiyotaka's life began to change. 
@@ -56,11 +84,13 @@
             <span class="dot" onclick="currentSlide(3)"></span>
             </div>
             <script src="js\slideshow.js"></script>
-            <div class="text__tt">Trailer Season 1</div>            <hr class="underline"></hr>
+            <div class="text__tt">Trailer Season 1</div>            
+            <hr class="underline"></hr>
             <div class="movie">
                 <iframe width="720" height="450" src="https://www.youtube.com/embed/vdD_f5AXbnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="text__tt">Trailer Season 2</div>            <hr class="underline"></hr>
+            <div class="text__tt">Trailer Season 2</div>            
+            <hr class="underline"></hr>
             <div class="movie">
                 <iframe width="720" height="450" src="https://www.youtube.com/embed/EmhjuMzznMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -99,30 +129,29 @@
                         <input class="submit__contact" type="submit" value="Send" name="Send"/>
                     </form>
                 </div>
-            </div>
+            </div>  
+            <div class="footer">
+                <div class="text2"></div>                
+                <div class="l">
+                    <a href="https://www.facebook.com/">
+                        <i style="font-size:24px" class="fa">&#xf082;</i>
+                    </a>                    
+                </div>                
+            </div>              
         </div>
-
-        <div class="footer">
-            <div class="text2"></div>                
-            <div class="l">
-                <a href="https://www.facebook.com/">
-                    <i style="font-size:24px" class="fa">&#xf082;</i>
-                </a>
-                
-            </div>
-            
-        </div>    
+        
         <img src="svg\chat__btn.svg" class="open-button" onclick="openForm()"></button>
 
         <div class="chat-popup" id="myForm">
             <form action="https://www.facebook.com" class="form-container">
                 <label for="msg"><b>Message</b></label>
                 <textarea placeholder="Type message.." name="msg" required></textarea>
-
                 <button type="submit" class="btn">Send</button>
                 <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
             </form>
         </div>
-        <script src="js\chat__btn.js"></script>
-    </body>
+        <script src="js\chat__btn.js"></script>        
+        <script src="js\toggle__menu.js"></script>
+        
+    </body>    
 </html>
