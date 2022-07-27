@@ -8,11 +8,7 @@
         <title>Website about Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
-        <div class="navbar">
-            <p>Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</p>
-        </div>
-        
+    <body>        
         <nav>
             <div class="toggle__menu">
                 <img src="svg\menu.svg" alt="Menu">
@@ -22,19 +18,19 @@
                     <li><a href="#"> 
                         Home
                     </a></li>
-                    <li><a href="#">
+                    <li><a href="#intro">
                         Introduction
                     </a></li>
-                    <li><a href="#">
+                    <li><a href="#picture">
                         Picture Gallery
                     </a></li>
-                    <li><a href="#">
+                    <li><a href="#trss1">
                         Trailer Season 1
                     </a></li>
-                    <li><a href="#">
+                    <li><a href="#trss2">
                         Trailer Season 2
                     </a></li>
-                    <li><a href="#">
+                    <li><a href="#link">
                         External Link
                     </a></li>
                     <li><a href="#" class="vi">
@@ -47,8 +43,10 @@
             </div>
         </nav>
         
-        
-        <div class="content">
+        <div class="content" id="container">
+            <div class="navbar">
+                <p>Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</p>
+            </div>      
             <div class="text__title">
                 <div class="text__tt" id="intro">Introduction</div>
                 <hr class="underline"></hr>
@@ -95,7 +93,7 @@
             <div class="movie">
                 <iframe width="720" height="450" src="https://www.youtube.com/embed/EmhjuMzznMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="external__link">
+            <div class="external__link" id="link">
 
                 <div class="image__">
                     <img src="images\image__.jpg" width="600px" height="380px">
@@ -124,16 +122,19 @@
             <div class="text__contact" id="cm">CONTACT ME</div>
             <div class="getInTouch">
                 <div class="form_content">
-                    <form id="usr_form">
-                        <input class="input__contact" id="name" type="text" name="Name" placeholder="Name" /> <br/>                       
+                    <form id="usr_form" action="mailto:tquanga10@gmail.com" method="POST" enctype="text/plain">
+                        <input class="input__contact" id="name" type="text" name="Name" placeholder="Name" /> <br/>   
+                        <input class="input__contact" id="email" type="email" name="Email" placeholder="Email" /> <br/>   
+                                    
                         <textarea class="input__contact" id="message"  name="Message" cols="30" rows="10" form="usr__form" placeholder="Message"></textarea><br/>
                         <input class="submit__contact" type="submit" value="Send" name="Send"/>
                     </form>
+                    
                 </div>
             </div>  
             <div class="footer">
-                <div class="text2"></div>                
-                <div class="l">
+                <div class="text2">Thanh Quang</div>                
+                <div class="fb">
                     <a href="https://www.facebook.com/">
                         <i style="font-size:24px" class="fa">&#xf082;</i>
                     </a>                    
