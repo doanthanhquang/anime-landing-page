@@ -265,17 +265,19 @@ hr {
   padding-right: 20px;
   padding-top:5px;
   padding-bottom: 5px;
-  border: solid 1pt;
+  border: solid 0.25pt;
+  border-radius: 2pt;
   color: black;
-  font-size: 100%;
   font-family:'Times New Roman', Times, serif;
-  font-weight: bold;  
+  font-size: 13pt;
 }
 
-#message{
+/* #message{
   width: 600px;
   height: 150px;
-}
+  word-wrap: break-word;
+  word-break: keep-all;
+} */
 
 .submit__contact{
   width: 70px;
@@ -313,15 +315,9 @@ form{
   padding-right:40px;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-* {
-  box-sizing: border-box;
-}
 
 
-.open-button {
+/* .open-button {
   background-color: #555;
   color: white;
   padding: 16px 20px;
@@ -380,7 +376,7 @@ body {
 
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
-}
+} */
 
 @media screen and (max-width: 1000px){
   .section1{
