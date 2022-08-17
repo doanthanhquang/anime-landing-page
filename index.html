@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="project1.css">
         <title>Website about Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>        
         <nav>
@@ -48,91 +49,112 @@
                 <p>Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e</p>
             </div>      
             <div class="text__title">
-                <div class="text__tt" id="intro">Introduction</div>
-                <hr class="underline"></hr>
+                <div data-aos="fade-up" data-aos-duration="1500">
+                    <div class="text__tt" id="intro">Introduction</div>
+                    <hr class="underline"></hr>
+                </div>
             </div>
             <div class="section1">
-                <div class="section__content" id="intro__content">
-                    Koudo Ikusei High School is a prestigious top school with state-of-the-art facilities where almost 100% of students go to university to get a job. The students there have the freedom to wear any clothes or choose the hairstyle they want. Koudo Ikusei is a heavenly school, but the truth is that only the superiors of students are treated well. Ayanokouji Kiyotaka is a student in Class D, which is reserved for "bad" and mocked students. For some reason, Kiyotaka was careless in his entrance exam, and was placed in Class D. After meeting Horikita Suzune and Kushida Kikyou, two other students in the class, Kiyotaka's life began to change. 
+                <div data-aos="fade-up-right" data-aos-duration="1500">
+                    <div class="section__content" id="intro__content">
+                        Koudo Ikusei High School is a prestigious top school with state-of-the-art facilities where almost 100% of students go to university to get a job. The students there have the freedom to wear any clothes or choose the hairstyle they want. Koudo Ikusei is a heavenly school, but the truth is that only the superiors of students are treated well. Ayanokouji Kiyotaka is a student in Class D, which is reserved for "bad" and mocked students. For some reason, Kiyotaka was careless in his entrance exam, and was placed in Class D. After meeting Horikita Suzune and Kushida Kikyou, two other students in the class, Kiyotaka's life began to change. 
+                    </div>
                 </div>
-                <div class="section__image">
-                    <img src="images\intro_image.jpg" width="700px" height="400px">
+                <div data-aos="fade-up-left" data-aos-duration="1500">
+                    <div class="section__image">
+                        <img src="images\intro_image.jpg" width="700px" height="400px">
+                    </div>
                 </div>
             </div>
-            - <div class="text__tt" id="picture">Picture Gallery</div>
-            <hr class="underline"></hr>
+            <div data-aos="fade-up" data-aos-duration="1500">
+                <div class="text__tt" id="picture">Picture Gallery</div>            
+                <hr class="underline"></hr>
+            </div>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
 
-            <div class="slideshow__container">
-                <div class="slides">   
-                    <img src="images\image_1.jpg" alt="image1" style="width:100%">  
-                </div>    
-                <div class="slides">  
-                    <img src="images\image_2.jpg" alt="image2" style="width:100%">   
+                <div class="slideshow__container">
+                    <div class="slides">   
+                        <img src="images\image_1.jpg" alt="image1" style="width:100%">  
+                    </div>    
+                    <div class="slides">  
+                        <img src="images\image_2.jpg" alt="image2" style="width:100%">   
+                    </div>
+                    <div class="slides">  
+                        <img src="images\image_3.jpg" alt="image3" style="width:100%">     
+                    </div> 
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-                <div class="slides">  
-                    <img src="images\image_3.jpg" alt="image3" style="width:100%">     
-                </div> 
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-                
-            <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
+                <br>
+                    
+                <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
             </div>
             <script src="js\slideshow.js"></script>
-            <div class="text__tt" id="trss1">Trailer Season 1</div>            
-            <hr class="underline"></hr>
-            <div class="movie">
-                <iframe width="720" height="450" src="https://www.youtube.com/embed/vdD_f5AXbnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div data-aos="fade-up" data-aos-duration="1500">
+                <div class="text__tt" id="trss1">Trailer Season 1</div>                        
+                <hr class="underline"></hr>
             </div>
-            <div class="text__tt" id="trss2">Trailer Season 2</div>            
-            <hr class="underline"></hr>
-            <div class="movie">
-                <iframe width="720" height="450" src="https://www.youtube.com/embed/EmhjuMzznMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div data-aos="flip-up" data-aos-duration="3000">
+                <div class="movie">
+                <iframe width="720" height="450" src="https://www.youtube.com/embed/LFmd8E6RmYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1500">
+                <div class="text__tt" id="trss2">Trailer Season 2</div>                       
+                <hr class="underline"></hr>
+            </div> 
+            <div data-aos="flip-down" data-aos-duration="3000">
+                <div class="movie">
+                    <iframe width="720" height="450" src="https://www.youtube.com/embed/Bp2nNZPNegE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
             <div class="external__link" id="link">
-
-                <div class="image__">
-                    <img src="images\image__.jpg" width="600px" height="380px">
-                </div>
-
-                <div class="link__">   
-                    <div class="text__ss" id="exlink">External Links</div> 
-
-                    <div class="ss">Season 1:
-                        <a href="https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-1586.html" class="ss">https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-1586.html</a>
+                <div data-aos="zoom-in-right" data-aos-duration="1500">
+                    <div class="image__">
+                        <img src="images\image__.jpg" width="600px" height="380px">
                     </div>
-
-                    <div class="ss">Season 2:
-                        <a href="https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season-4828.html" class="ss">https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season-4828.html</a>
-                    </div>   
-
-                    <div class="ss">News:
-                        <a href="https://game4v.com/thong-tin-dau-tien-ve-youkoso-jitsuryoku-ss2-duoc-cong-bo-845437.g4v" class="ss">https://game4v.com/thong-tin-dau-tien-ve-youkoso-jitsuryoku-ss2-duoc-cong-bo-845437.g4v</a>
-                    </div>
-
                 </div>
-                
+                <div data-aos="zoom-in-left" data-aos-duration="1500">
+                    <div class="link__">                       
+                        <div class="text__ss" id="exlink">External Links</div>        
+                        <div class="ss">Season 1:
+                            <a href="https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-1586.html" class="ss">https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-1586.html</a>
+                        </div>
+
+                        <div class="ss">Season 2:
+                            <a href="https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season-4828.html" class="ss">https://animet.net/phim-youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-tv-2nd-season-4828.html</a>
+                        </div>   
+
+                        <div class="ss">News:
+                            <a href="https://game4v.com/thong-tin-dau-tien-ve-youkoso-jitsuryoku-ss2-duoc-cong-bo-845437.g4v" class="ss">https://game4v.com/thong-tin-dau-tien-ve-youkoso-jitsuryoku-ss2-duoc-cong-bo-845437.g4v</a>
+                        </div>
+                    </div>     
+                </div>
             </div>
-            <div class="text__tt" id="git">GET IN TOUCH</div>            
-            <hr class="underline"></hr>
-            <div class="text__contact" id="cm">CONTACT ME</div>
+            <div data-aos="fade-up" data-aos-duration="1500">
+                <div class="text__tt" id="git">GET IN TOUCH</div>            
+                <hr class="underline"></hr>            
+                <div class="text__contact" id="cm">CONTACT ME</div>
+            </div>
             <div class="getInTouch">
                 <div class="form_content">
                     <form id="usr_form" action="mailto:tquanga10@gmail.com" method="POST" enctype="text/plain">
-
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                         <input class="input__contact" type="text" name="Name" placeholder="Name" /> <br/> 
-
+                            
                         <input class="input__contact" type="email" name="Email" placeholder="Email"/> <br/>   
                                     
                         <!-- <textarea class="input__contact" id="message"  name="Message" cols="30" rows="10" form="usr__form" placeholder="Message" 
                         required></textarea><br/>-->
                         
                         <input class="input__contact" type="text" name="Message" placeholder="Message" id="message"> <br>
-                        <input class="submit__contact" type="submit" value="Send" name="Send"/>
+                        <!-- <input class="submit__contact" type="submit" value="Send" name="Send"/> -->
+                        <button class="send" role="button">Send</button>
+                        </div>
                     </form>
                     
                 </div>
@@ -160,6 +182,10 @@
         <script src="js\chat__btn.js"></script>         -->
         <script src="js\toggle__menu.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-        <script src="js\translate.js"></script>       
+        <script src="js\translate.js"></script>  
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>     
     </body>    
 </html>
