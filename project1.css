@@ -1,11 +1,9 @@
-
-
 html{
   scroll-behavior: smooth;
 }
 body{
-  margin:0;
-  font-family: Arial, Helvetica, sans-serif;
+  margin:0;  
+  font-family: 'Fira Code', monospace;
   position: relative;
   width:100%;
   min-height: 150vh;
@@ -28,9 +26,10 @@ nav.hide{
 }
 
 nav ul{
-  width: 100%;
+  width: auto;
   list-style: none;
   overflow:  hidden;
+  padding-inline-start: 20px;
 }
 nav ul li a{
   width: 100%;
@@ -93,7 +92,7 @@ nav .toggle__menu:hover{
   text-align: center;
   padding-top:20px;
   margin-bottom:  20px;
-  font-family:'Times New Roman', Times, serif;
+  /* font-family:'Times New Roman', Times, serif; */
   font-size: 22pt;
   color: rgb(213, 213, 248);
 }
@@ -122,7 +121,7 @@ hr {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 50px;
-  font-family:'Times New Roman', Times, serif;
+  /* font-family:'Times New Roman', Times, serif; */
   font-size: 14pt;
 }
 
@@ -238,12 +237,13 @@ hr {
   flex-direction: column;
   justify-content: space-around;
   margin-left: 80px;
+  padding-top: 30px;
 }
 .text__ss{
   padding-left: 30px;
   font-weight: bold;
   font-size:1.5cm;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   color: white;
 }
 
@@ -253,14 +253,14 @@ hr {
   margin-bottom: 20px;
   margin-top: 20px;
   font-size:16pt;
-  font-family: Helvetica;
+  /* font-family: Helvetica; */
   color: white;
 }
 
 .text__contact{
   text-align: center;
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   margin: 20px;
 }
 
@@ -276,7 +276,7 @@ hr {
   border: solid 0.25pt;
   border-radius: 2pt;
   color: black;
-  font-family:'Times New Roman', Times, serif;
+  /* font-family:'Times New Roman', Times, serif; */
   font-size: 13pt;
 }
 
